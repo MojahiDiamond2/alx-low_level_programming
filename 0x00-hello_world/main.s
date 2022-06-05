@@ -12,7 +12,7 @@ main:
 .LFB0:
 	.cfi_startproc
 	endbr64
-	pushq	rbp
+	push	rbp
 	.cfi_def_cfa_offset 16
 	.cfi_offset 6, -16
 	movq	rsp, rbp
