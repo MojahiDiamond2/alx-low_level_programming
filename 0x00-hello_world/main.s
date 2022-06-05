@@ -12,13 +12,16 @@ main:
 .LFB0:
 	.cfi_startproc
 	endbr64
-	pushq	%rbp
+	pushq	rbp
 	.cfi_def_cfa_offset 16
 	.cfi_offset 6, -16
-	movq	%rsp, %rbp
+	movq	rsp, rbp
 	.cfi_def_cfa_register 6
-	movl	$0, %eax
-	popq	%rbp
+	lea	rdi, .LC0[rip]
+	mov	eax, 0
+	call printf@PTL
+	mov	eax, 0
+	pop	rbp
 	.cfi_def_cfa 7, 8
 	ret
 	.cfi_endproc
