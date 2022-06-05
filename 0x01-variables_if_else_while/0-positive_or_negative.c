@@ -5,7 +5,7 @@
 /**
  * main -> assign a random number to the variable n each time it is executed and
  * prints out based on a condition
- * Return: Always 0 
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -17,7 +17,7 @@ if (n > 0)
 	printf("%d is positive\n", n);
 if (n == 0)
 	printf("%d is zero\n", n);
-if (n < o)
+if (n < 0)
 {
 	printf("%d is negative\n", n);
 }
