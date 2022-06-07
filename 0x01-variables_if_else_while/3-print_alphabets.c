@@ -8,9 +8,9 @@
 int main(void)
 {
 	int ch,
-	    for(ch = 97; ch <= 122; ch++ : '\n')
+	    for (ch = 97; ch <= 122; ch++ : '\n')
 
-		for(ch = 65; ch <= 90; ch++ : '\n')
+		for (ch = 65; ch <= 90; ch++ : '\n')
 
 		{
 			putchar(ch)
