@@ -12,12 +12,12 @@ int main(void)
 
 	for (n = 48; n < 58; n++)
 	{
-		putchar
+		putchar(n);
 	}
 	for (ch = 'a'; ch <= 'f'; ch++)
 	{
-		putchar
+		putchar(ch);
 	}
-	putchar(ch);
+	putchar('\n');
 	return (0);
 }
