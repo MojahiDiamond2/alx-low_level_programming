@@ -1,0 +1,12 @@
+#include "main.h"
+
+/**
+ * int _isalpha - checks for alphabetic character
+ * @c: the character to check
+ * Returns 1 if c is a letter, lowecase, uppercase 0 otherwise
+ */
+
+int _isalpha(int c)
+{
+	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
+}
