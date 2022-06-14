@@ -5,11 +5,11 @@
 int main()
 {
 	char *x = "Hello World";
-	char *s = &sx;
+	char *s = &x;
 
 	int len;
 
-	for (; *s != '\0')
+	for (; *s != '\0'; s++)
 	{
 		len += 1;
 		s++;
