@@ -6,13 +6,13 @@
  */
 void more_numbers(void)
 {
-	int i, k;
+	int x, y;
 
-	for (i = 0; i < 10; i++)
+	for (x = 0; x < 10; x++)
 	{
-		for (k = 0; k < 15; k++)
+		for (y = 0; y < 15; y++)
 		{
-			_putchar(k + '0');
+			_putchar(y + '0');
 		}
 		_putchar('\n');
 	}
