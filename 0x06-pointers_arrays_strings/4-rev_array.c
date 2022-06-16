@@ -2,12 +2,21 @@
 
 /**
  * reverse_array - reverses the content of an array of integers
+ * @n: element of array
+ * @a: array function
  */
 void reverse_array(int *a, int n)
 {
-	int *a, n;
+	int *b, i, aux, k;
 
-	reverse(*a, n);
-	print (*a, n);
-	return (0);
+	b = a;
+	for (i = 0; i < n; i++)
+		b++;
+	for (k = 0; k < n / 2; k++)
+	{
+		aux = a[k];
+		a[k] = b*;
+		*b = aux;
+		*b -= 1;
+	}
 }
